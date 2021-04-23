@@ -1,0 +1,64 @@
+@charset 'utf-8';
+
+body,h1,h2,h3,h4,h5,h6,p,dl,dd {
+  margin: 0;
+}
+
+body {
+  min-width: 1386px;
+  color: #555;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: #555;
+}
+h2 {
+  color: #333;
+  font-size: 55px;
+  text-align: center;
+}
+h4 {
+  font-weight: 100;
+  font-size: 65px;
+  line-height: 1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+img {
+  display: block;
+}
+
+.inner {
+  width: 1386px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.cf::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+
+
+
+
+
